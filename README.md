@@ -35,3 +35,6 @@ The API accepts the following query parameters:
 {
     "password": "generated_password"
 }
+
+# How it works
+The script generates a random password using the length and include_symbols parameters. The script uses the rand() function to generate a random index based on the length of the characters string and then it appends the character at that index to the password. It checks whether the include_symbols parameter is true or false and adds the symbols to the characters string if it's true.
