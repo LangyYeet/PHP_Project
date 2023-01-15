@@ -19,3 +19,10 @@ To use the API, make a GET request to the endpoint "/generate_password.php" with
 
 
 # Password Generator API - Developer Manual
+- This developer manual provides information on how to use and customize the Password Generator API.
+
+- The API has one endpoint:
+- "/generate_password"
+
+- Input parameters
+- The API accepts the following query parameters:
