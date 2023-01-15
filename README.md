@@ -1,5 +1,7 @@
 # Password Generator API
-- This is a simple API for generating random passwords. The API has one endpoint "/generate_password" which accepts two parameters "length" and "include_symbols". The output is returned as a JSON object containing the generated password.
+- This is a simple API for generating random passwords. 
+- The API has one endpoint "/generate_password" which accepts two parameters "length" and "include_symbols". 
+- The output is returned as a JSON object containing the generated password.
 
 # Requirements
 - PHP 7.0 or higher
