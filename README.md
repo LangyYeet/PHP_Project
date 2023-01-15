@@ -16,3 +16,6 @@
 To use the API, make a GET request to the endpoint "/generate_password.php" with the following query parameters:
 - "length": an integer representing the length of the generated password.
 - "include_symbols": a boolean value indicating if the password should include symbols or not.
+
+
+# Password Generator API - Developer Manual
