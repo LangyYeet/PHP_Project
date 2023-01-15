@@ -28,3 +28,10 @@ To use the API, make a GET request to the endpoint "/generate_password.php" with
 The API accepts the following query parameters:
 - "length" - The length of generated password
 - "include_symbols" - Indicates if the password should include symbols or not.
+
+# Output
+- The API returns a JSON object containing the generated password. 
+- The JSON object has the following structure:
+{
+    "password": "generated_password"
+}
